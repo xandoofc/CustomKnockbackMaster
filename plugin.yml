@@ -1,0 +1,10 @@
+name: CustomKnockback
+version: 1.0
+main: CustomKnockback
+api: [3.0.0-ALPHA11]
+author: xando
+commands:
+  customknockback:
+    usage: "/customknockback <setkb|setdelay|setmotion|setleaching|setheight> <value>"
+    description: "Modify knockback values"
+    permission: customknockback.command
