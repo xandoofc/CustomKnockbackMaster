@@ -65,7 +65,8 @@ class Main extends PluginBase implements Listener{
                     case "setdelay":
                         if(!isset($args[1])){
                             $sender->sendMessage(TextFormat::RED . "Usage: /customknockback setdelay <value>");
-                            return false
+                            return false;
+                        }
                         $this->getConfig()->set("default", [
                             "knockback-delay" => (int) $args[1]
                         ]);
