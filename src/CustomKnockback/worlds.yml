@@ -1,0 +1,6 @@
+world_name:
+  knockback-factor: 1.0
+  knockback-delay: 20
+  knockback-motion: 1
+  knockback-leaching: 1.0
+  knockback-height: 1.0
